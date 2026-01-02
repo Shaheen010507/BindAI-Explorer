@@ -1,0 +1,141 @@
+/* Full page container */
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #e5e7eb;
+  background: #0f172a;
+}
+
+/* Header */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #020617;
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.left-nav a {
+  margin-right: 30px;
+  color: #cbd5e1;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.left-nav a:hover {
+  color: #3b82f6;
+}
+
+.right-logo h2 {
+  color: #38bdf8;
+}
+
+/* Hero Section */
+.home-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #cbd5e1;
+}
+
+.hero-buttons button {
+  padding: 12px 30px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-buttons button:first-child {
+  background: #3b82f6;
+  color: white;
+}
+
+.hero-buttons button:first-child:hover {
+  background: #2563eb;
+}
+
+.hero-buttons button:last-child {
+  background: #10b981;
+  color: white;
+}
+
+.hero-buttons button:last-child:hover {
+  background: #059669;
+}
+
+/* Hero Image */
+.hero-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Features Section */
+.home-features {
+  padding: 80px 50px;
+  background: #020617;
+  text-align: center;
+}
+
+.home-features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #38bdf8;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #3b82f6;
+}
+
+.card p {
+  color: #cbd5e1;
+  font-size: 1rem;
+}
