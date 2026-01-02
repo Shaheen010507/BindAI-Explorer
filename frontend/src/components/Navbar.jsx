@@ -4,11 +4,13 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">BindAI-Explorer</h2>
-      <div className="nav-links">
+      <div className="navbar-left">
         <Link to="/">Home</Link>
-        <Link to="/dashboard">Dashboard</Link>
         <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+      </div>
+      <div className="navbar-right">
+        <h2>BindAI-Explorer</h2>
       </div>
     </nav>
   );
